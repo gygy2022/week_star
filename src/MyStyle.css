@@ -1,0 +1,104 @@
+/* 모든 div 공통 css */
+div {
+  box-sizing: border-box;
+}
+
+/* 감싸주는 div */
+.App {
+  width: 500px;
+  height: 80vh;
+  margin: 80px auto;
+  padding-top: 10px;
+  border: 1px solid rgb(185, 185, 185);
+  border-radius: 8px;
+}
+
+/* 동그라미 감싸는 div */
+.circleBox {
+  margin: auto;
+  width: 260px;
+  height: 70px;
+  padding-top: 20px;
+}
+
+/* reset 버튼 */
+#reset {
+  width: 100px;
+  height: 50px;
+  background-color: seagreen;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+/* week.js 요일 css */
+#day {
+  float: left;
+  font-size: 24px;
+
+}
+
+/* 동그라미 */
+#circle {
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+  border-radius: 100px;
+  float: left;
+  margin-left: 8px;
+}
+
+/* 세모 */
+#triangle {
+  appearance: none;
+  background-color: transparent;
+  border-color: transparent purple;
+  width: 0px;
+  height: 0px;
+  border-top-width: 1rem;
+  border-top-style: solid;
+  border-bottom-width: 1rem;
+  border-bottom-style: solid;
+  border-left-width: 1.6rem;
+  border-left-style: solid;
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  margin-left: 10px;
+}
+
+/* 평점 남기기 div */
+.choiceTitle {
+  font-size: 24px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+/* choice.js 동그라미 감싸는 div */
+.choiceBox {
+  padding-left: 30px;
+  margin-bottom: 20px;
+  margin-top: -30px;
+
+}
+
+/* 평점 남기기 버튼 */
+#submit {
+
+  width: 100px;
+  height: 50px;
+  background-color: tomato;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+/* 받아온 요일 강조 */
+#get_day {
+  background-color: mediumvioletred;
+  color: #fff;
+  border-radius: 5px;
+  padding: 3px;
+}
